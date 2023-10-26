@@ -1,25 +1,20 @@
 <template>
-	<view class="content">
-		页面 - 发视频
-	</view>
+  <view class="content">
+    <web-view src="https://v.bilirz.com/member/upload" style="{height: 400px, marginTop: 200px}"></web-view>
+  </view>
 </template>
 
 <script>
-	export default {
-		data() {
-			return {
-				title: 'Hello'
-			}
-		},
-		onLoad() {
-
-		},
-		methods: {
-
-		}
-	}
+export default {
+  data() {
+    return {
+      title: 'Hello'
+    };
+  },
+  onLoad() {},
+  methods: {}
+};
 </script>
-
 <style>
 	.content {
 		text-align: center;
